@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1699696462904,1671,HealthCheck ,201,Created,Thread Group 1-1,text,true,,757,134,1,1,https://restful-booker.herokuapp.com/ping,1665,0,1401
+1699696464578,266,Login,200,OK,Thread Group 1-1,text,true,,780,250,1,1,https://restful-booker.herokuapp.com/auth,266,0,0
+1699696464889,274,Create Booking,200,OK,Thread Group 1-1,text,true,,951,465,1,1,https://restful-booker.herokuapp.com/booking,274,0,0
+1699696465164,262,Get Booking,200,OK,Thread Group 1-1,text,true,,922,200,1,1,https://restful-booker.herokuapp.com/booking/1277,262,0,0
+1699696465428,269,GetBookingIds,200,OK,Thread Group 1-1,text,true,,17018,137,1,1,https://restful-booker.herokuapp.com/booking,268,0,0
+1699696465697,263,GetBookingIds - By Name,200,OK,Thread Group 1-1,text,true,,809,166,1,1,https://restful-booker.herokuapp.com/booking?firstname=Jim&lastname=Brown,263,0,0
+1699696465962,266,UpdateBooking,200,OK,Thread Group 1-1,text,true,,924,502,1,1,https://restful-booker.herokuapp.com/booking/1277,266,0,0
+1699696466230,264,PartialUpdateBooking,200,OK,Thread Group 1-1,text,true,,925,308,1,1,https://restful-booker.herokuapp.com/booking/1277,264,0,0
+1699696466497,520,DeleteBooking,201,Created,Thread Group 1-1,text,true,,761,253,1,1,http://restful-booker.herokuapp.com/booking/1277,520,0,259
