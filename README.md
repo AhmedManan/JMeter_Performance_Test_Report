@@ -97,7 +97,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 
 - Run BlazeMeter  
 - Collect Frequently used API  
-- Save JMX file then paste => **apache-jmeter-5.5\bin**
+- Save JMX file then paste => **apache-jmeter-5.6.2\bin**
 
     ### List of API 
 
@@ -131,15 +131,15 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
   - **l**: output file with results   
 
 ```bash
-  jmeter -n -t  OPENCART_T1.jmx -l OPENCART_T1.csv
+  jmeter -n -t  restful_booker_T1.jmx -l restful_booker_T1.csv
 ```   
-![csvfile](https://user-images.githubusercontent.com/92669932/197028552-faf7d3e6-d74a-46fc-b4d2-750c244f2a5e.jpg)
+![csvfile](Screenshots/restful_booker_T1_csv.png)
 
 
  ### Make jtl file
 
 ```bash
-  jmeter -n -t  OPENCART_T1.jmx -l OPENCART_T1.jtl
+  jmeter -n -t  restful_booker_T1.jmx -l restful_booker_T1.jtl
 ```      
   Then continue to upgrade Threads(1 to 6) by keeping Ramp-up Same.   
   
