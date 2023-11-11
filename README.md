@@ -143,15 +143,13 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 ```      
   Then continue to upgrade Threads(1 to 6) by keeping Ramp-up Same.   
   
-  ![a](https://user-images.githubusercontent.com/92669932/189541580-9345c967-36a3-48c1-bf51-692431658b27.jpg)   
-  
-  ![d](https://user-images.githubusercontent.com/92669932/189541861-ce9b4d40-3edb-408b-affd-c3c98020fddf.jpg)
+  ![a](Screenshots/jtl_terminal.png)   
 
 After completing this command  
    ### Make html file   
   
   ```bash
-  jmeter -g report\OPENCART_T1.jtl -o OPENCART_T1.html
+  jmeter -g report\restful_booker_T1.jtl -o restful_booker_T1.html
 ```
  
 
