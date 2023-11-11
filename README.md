@@ -1,5 +1,5 @@
 # JMeter_Performance_Test_Report
-Here I have done performance testing on Booker API
+Here I have done performance testing on Booker API https://restful-booker.herokuapp.com/apidoc/
 
 # Table of Content
 
@@ -101,18 +101,17 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 
     ### List of API 
 
-    - [https://www.opencart.com/index.php?route=common/home](https://www.opencart.com/index.php?route=common/home)
-    - [https://www.opencart.com/index.php?route=cms/feature](https://www.opencart.com/index.php?route=cms/feature)
-    - [https://www.opencart.com/index.php?route=marketplace/extension](https://www.opencart.com/index.php?route=marketplace/extension)
-    - [https://www.opencart.com/index.php?route=cms/company](https://www.opencart.com/index.php?route=cms/company)
-    - [https://www.opencart.com/index.php?route=account/login](https://www.opencart.com/index.php?route=account/login)
+    - https://restful-booker.herokuapp.com/auth
+    - https://restful-booker.herokuapp.com/booking
+    - https://restful-booker.herokuapp.com/booking/:id
+    - https://restful-booker.herokuapp.com/ping
 
    **OR**
     
   ### Load the JMeter Script 
    - File > Open (CTRL + O)
-   - Locate the "OPENCART_T1.jmx" file contained on this repo
-   - Continue open OPENCART_T1 to OPENCART_T6
+   - Locate the "restful_booker.jmx" file contained on this repo
+   - Continue open restful_booker_T1 to restful_booker_T6
    - Open those file
    - The Test Plan will be loaded  
    
