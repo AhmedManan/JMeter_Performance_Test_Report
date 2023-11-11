@@ -115,7 +115,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
    - Open those file
    - The Test Plan will be loaded  
    
-   ![c](https://user-images.githubusercontent.com/92669932/189541560-025b250b-b00e-46a1-9b55-c4ed4f7835ec.jpg)
+   ![c](Screenshots/restful_booker.png)
 
                                    
 # Test execution (from the Terminal)
