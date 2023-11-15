@@ -167,41 +167,41 @@ After completing this command
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![1](Screenshots/T1_report_summary.png)  |  ![2](Screenshots/T1_error_report.png)
+![1](Screenshots/T1_request_summary.png)  |  ![2](Screenshots/T1_error_report.png)
 
 **Number of Threads 2 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![3](Screenshots/T2_report_summary.png) |  ![4](Screenshots/T2_error_report.png)
+![3](Screenshots/T2_request_summary.png) |  ![4](Screenshots/T2_error_report.png)
 
 
 **Number of Threads 3 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![5](Screenshots/T3_report_summary.png)  |  ![6](Screenshots/T3_error_report.png)
+![5](Screenshots/T3_request_summary.png)  |  ![6](Screenshots/T3_error_report.png)
 
 
 **Number of Threads 4 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![7](Screenshots/T4_report_summary.png)  |  ![8](Screenshots/T4_error_report.png)
+![7](Screenshots/T4_request_summary.png)  |  ![8](Screenshots/T4_error_report.png)
 
 
 **Number of Threads 5 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![9](Screenshots/T5_report_summary.png)  |  ![10](Screenshots/T5_error_report.png)
+![9](Screenshots/T5_request_summary.png)  |  ![10](Screenshots/T5_error_report.png)
 
 
 **Number of Threads 6 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
- ![11](Screenshots/T6_report_summary.png) |  ![12](Screenshots/T6_error_report.png)   
+ ![11](Screenshots/T6_request_summary.png) |  ![12](Screenshots/T6_error_report.png)   
 
 
 # Stress Testing
