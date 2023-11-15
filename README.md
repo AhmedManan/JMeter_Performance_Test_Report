@@ -143,7 +143,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 ```      
   Then continue to upgrade Threads(1 to 6) by keeping Ramp-up Same.   
   
-  ![a](Screenshots/jtl_terminal.png)   
+  ![JTL_Terminal Commands](Screenshots/jtl_terminal.png)   
 
 After completing this command  
    ### Make html file   
@@ -155,10 +155,10 @@ After completing this command
 
   - **g**: jtl results file
 
-  - **o**: path to output folder  
-
-  ![b](https://user-images.githubusercontent.com/92669932/189541594-c608e5c9-9679-4c80-9f90-855985cfb630.jpg)  
-  ![f](https://user-images.githubusercontent.com/92669932/189541801-59a45bdd-6a12-44f3-9194-ff41b2c3d954.jpg)  
+  - **o**: path to output folder
+  - 
+  ![HTML Report Terminal Commands](Screenshots/html_terminal.png)
+  ![HTML Report Contents](Screenshots/html_report_contents.png)
   
 
 # HTML Report
