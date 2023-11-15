@@ -1,0 +1,28 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1700083178517,1452,HealthCheck ,201,Created,Thread Group 1-1,text,true,,749,134,1,1,https://restful-booker.herokuapp.com/ping,1448,0,1181
+1700083179973,267,Login,200,OK,Thread Group 1-1,text,true,,772,250,1,1,https://restful-booker.herokuapp.com/auth,267,0,0
+1700083180267,266,Create Booking,200,OK,Thread Group 1-1,text,true,,943,465,1,1,https://restful-booker.herokuapp.com/booking,265,0,0
+1700083180535,267,Get Booking,200,OK,Thread Group 1-1,text,true,,914,200,1,1,https://restful-booker.herokuapp.com/booking/3793,267,0,0
+1700083180803,545,GetBookingIds,200,OK,Thread Group 1-1,text,true,,49503,137,1,1,https://restful-booker.herokuapp.com/booking,282,0,0
+1700083181348,263,GetBookingIds - By Name,200,OK,Thread Group 1-1,text,true,,788,166,1,1,https://restful-booker.herokuapp.com/booking?firstname=Jim&lastname=Brown,263,0,0
+1700083181612,267,UpdateBooking,200,OK,Thread Group 1-1,text,true,,928,502,2,2,https://restful-booker.herokuapp.com/booking/3793,267,0,0
+1700083181880,267,PartialUpdateBooking,200,OK,Thread Group 1-1,text,true,,925,308,2,2,https://restful-booker.herokuapp.com/booking/3793,267,0,0
+1700083182148,516,DeleteBooking,201,Created,Thread Group 1-1,text,true,,761,253,2,2,http://restful-booker.herokuapp.com/booking/3793,516,0,256
+1700083181735,1047,HealthCheck ,201,Created,Thread Group 1-2,text,true,,761,134,1,1,https://restful-booker.herokuapp.com/ping,1047,0,787
+1700083182783,262,Login,200,OK,Thread Group 1-2,text,true,,772,250,1,1,https://restful-booker.herokuapp.com/auth,262,0,0
+1700083183047,263,Create Booking,200,OK,Thread Group 1-2,text,true,,943,465,1,1,https://restful-booker.herokuapp.com/booking,263,0,0
+1700083183313,263,Get Booking,200,OK,Thread Group 1-2,text,true,,914,200,1,1,https://restful-booker.herokuapp.com/booking/3814,263,0,0
+1700083183577,537,GetBookingIds,200,OK,Thread Group 1-2,text,true,,49815,137,1,1,https://restful-booker.herokuapp.com/booking,276,0,0
+1700083184115,261,GetBookingIds - By Name,200,OK,Thread Group 1-2,text,true,,796,166,1,1,https://restful-booker.herokuapp.com/booking?firstname=Jim&lastname=Brown,261,0,0
+1700083184376,266,UpdateBooking,200,OK,Thread Group 1-2,text,true,,928,502,1,1,https://restful-booker.herokuapp.com/booking/3814,265,0,0
+1700083184643,267,PartialUpdateBooking,200,OK,Thread Group 1-2,text,true,,917,308,1,1,https://restful-booker.herokuapp.com/booking/3814,267,0,0
+1700083184911,529,DeleteBooking,201,Created,Thread Group 1-2,text,true,,753,253,2,2,http://restful-booker.herokuapp.com/booking/3814,529,0,262
+1700083185064,1035,HealthCheck ,201,Created,Thread Group 1-3,text,true,,753,134,1,1,https://restful-booker.herokuapp.com/ping,1035,0,775
+1700083186100,261,Login,200,OK,Thread Group 1-3,text,true,,776,250,1,1,https://restful-booker.herokuapp.com/auth,261,0,0
+1700083186363,261,Create Booking,200,OK,Thread Group 1-3,text,true,,947,465,1,1,https://restful-booker.herokuapp.com/booking,261,0,0
+1700083186627,263,Get Booking,200,OK,Thread Group 1-3,text,true,,914,200,1,1,https://restful-booker.herokuapp.com/booking/3847,263,0,0
+1700083186891,535,GetBookingIds,200,OK,Thread Group 1-3,text,true,,50107,137,1,1,https://restful-booker.herokuapp.com/booking,272,0,0
+1700083187426,260,GetBookingIds - By Name,200,OK,Thread Group 1-3,text,true,,784,166,1,1,https://restful-booker.herokuapp.com/booking?firstname=Jim&lastname=Brown,260,0,0
+1700083187688,264,UpdateBooking,200,OK,Thread Group 1-3,text,true,,920,502,1,1,https://restful-booker.herokuapp.com/booking/3847,264,0,0
+1700083187953,264,PartialUpdateBooking,200,OK,Thread Group 1-3,text,true,,917,308,1,1,https://restful-booker.herokuapp.com/booking/3847,264,0,0
+1700083188220,524,DeleteBooking,201,Created,Thread Group 1-3,text,true,,753,253,1,1,http://restful-booker.herokuapp.com/booking/3847,524,0,258
