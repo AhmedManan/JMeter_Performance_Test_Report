@@ -163,34 +163,34 @@ After completing this command
 
 # HTML Report
 
-**Number of Threads 1 ; Ramp-Up Period 10s**
+**Number of Threads 1; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
 ![1](Screenshots/T1_request_summary.png)  |  ![2](Screenshots/T1_error_report.png)
 
-**Number of Threads 2 ; Ramp-Up Period 10s**
+**Number of Threads 100; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![3](Screenshots/T2_request_summary.png) |  ![4](Screenshots/T2_error_report.png)
+![3](Screenshots/T100_request_summary.png) |  ![4](Screenshots/T100_error_report.png)
 
 
-**Number of Threads 3 ; Ramp-Up Period 10s**
+**Number of Threads 500; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
 ![5](Screenshots/T3_request_summary.png)  |  ![6](Screenshots/T3_error_report.png)
 
 
-**Number of Threads 4 ; Ramp-Up Period 10s**
+**Number of Threads 750; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
 ![7](Screenshots/T4_request_summary.png)  |  ![8](Screenshots/T4_error_report.png)
 
 
-**Number of Threads 5 ; Ramp-Up Period 10s**
+**Number of Threads 100; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
