@@ -45,7 +45,7 @@ Here I have done performance testing on Booker API https://restful-booker.heroku
 
 This document explains how to run a performance test with JMeter against an OpenCart E-commerce Site.
 
-### View Report Online
+## View Report Online
 
 Report live link: https://reports.ahmedmanan.com/jmeter/
 
