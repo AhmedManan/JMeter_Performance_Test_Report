@@ -238,11 +238,11 @@ Requests Summary             |  Errors
 
 Spike testing is a type of performance testing where the demand for an application is suddenly and drastically increased or decreased. Spike testing's objective is to ascertain how a software program will behave under highly variable traffic conditions.
 
-**Number of Threads 15 ; Ramp-Up Period 10s**
+**Number of Threads 1000 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![s](https://user-images.githubusercontent.com/92669932/189822076-38361a8b-db25-4e43-98f4-2a582d0244fa.jpg) | ![p](https://user-images.githubusercontent.com/92669932/189822103-fdcd8c85-6d17-4135-af20-a700b5bb05d7.jpg)
+ ![11](Screenshots/T1000_request_summary.png) |  ![12](Screenshots/T1000_error_report.png)   
 
 # Endurance Testing
 An application may be put through endurance testing to see if it can handle the processing load that will be placed on it over an extended period of time. Memory usage is tracked throughout endurance tests to identify potential issues.   
