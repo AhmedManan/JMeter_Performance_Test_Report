@@ -183,7 +183,7 @@ Requests Summary             |  Errors
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![5](Screenshots/T3_request_summary.png)  |  ![6](Screenshots/T3_error_report.png)
+![5](Screenshots/T500_request_summary.png)  |  ![6](Screenshots/T500_error_report.png)
 
 
 **Number of Threads 750; Ramp-Up Period 10s**
