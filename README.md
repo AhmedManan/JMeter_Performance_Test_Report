@@ -193,46 +193,28 @@ Requests Summary             |  Errors
 ![7](Screenshots/T4_request_summary.png)  |  ![8](Screenshots/T4_error_report.png)
 
 
-**Number of Threads 100; Ramp-Up Period 10s**
-   
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
-![9](Screenshots/T5_request_summary.png)  |  ![10](Screenshots/T5_error_report.png)
-
-
-**Number of Threads 6 ; Ramp-Up Period 10s**
-   
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
- ![11](Screenshots/T6_request_summary.png) |  ![12](Screenshots/T6_error_report.png)   
 
 
 # Stress Testing
 
 Stress Testing is a type of software testing that evaluates how the software responds under extreme conditions. It verifies how robust a system will be, and its response capabilities and error handling when it is subjected to conditions where its normal functioning can be compromised.
 
-**Number of Threads 7 ; Ramp-Up Period 10s**
+**Number of Threads 800 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![a](https://user-images.githubusercontent.com/92669932/189820373-01f812aa-acaa-47fc-a7f2-91e813e23a4a.jpg) |  ![b](https://user-images.githubusercontent.com/92669932/189820402-fcef18b3-cd47-4b60-8ee1-87e1a7e59a01.jpg)
+![a]() |  ![b]()
 
   
 
 
-**Number of Threads 8 ; Ramp-Up Period 10s**
+**Number of Threads 900 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![c](https://user-images.githubusercontent.com/92669932/189820654-d0f9744c-d05e-462f-88f7-ba8f91125f29.jpg) | ![d](https://user-images.githubusercontent.com/92669932/189820670-b90a99e7-d44a-47f5-8d66-806e571c1fb4.jpg)    
+![c]() | ![d]()    
 
 
-
-**Number of Threads 9 ; Ramp-Up Period 10s**
-   
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
-![e](https://user-images.githubusercontent.com/92669932/189820708-da2be22b-1718-4f9a-a89a-e5235d6d1e82.jpg)  |   ![f](https://user-images.githubusercontent.com/92669932/189820724-4217425e-491d-4177-918b-347e89281b6b.jpg)
 
 # Spike Testing
 
@@ -251,34 +233,6 @@ An application may be put through endurance testing to see if it can handle the 
 
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![e](https://user-images.githubusercontent.com/92669932/189861431-3843b069-8a12-4e38-b527-2a28700f7bf9.jpg) | ![f](https://user-images.githubusercontent.com/92669932/189861468-84b0bd3c-1531-4a30-a7b2-9d9f59964823.jpg)
+![e]() | ![f]()
 
-![t](https://user-images.githubusercontent.com/92669932/189866938-ce1e11e2-9720-4c4f-91a6-6c79e450632b.jpg)
-
-# Read Test Data from CSV file in Jmeter    
-
-- Create a CSV file in the test suite folder and add test data to it.  <br/>
-
-![csv](https://user-images.githubusercontent.com/92669932/189913089-8bab3573-ad13-4d80-b9da-ff8168b953fe.jpg)
-
-- Add a Config Element CSV Data Set Config in Jmeter.   <br/>
-
-![2](https://user-images.githubusercontent.com/92669932/189913286-0ef1bf60-234f-4275-8def-47d815221dab.jpg)   
-
-- Configure ' CSV Data Set Config ' based on the need such as providing path of CSV file and variable names and other configs.   <br/>
-
-![1](https://user-images.githubusercontent.com/92669932/189913690-80380eda-a4df-4e92-901b-5f1424dadcc2.jpg)  
-
-- Run the test to see if data from the CSV file is read and populated in the results.  <br/>
-
-- Run the test to see if data from CSV file is read and populated in the results.    <br/>  
-
-
-**Number of Threads 13 ; Ramp-Up Period 5s**
-
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/92669932/189938100-48702b1a-99a6-4de4-af25-66f069b78e1c.jpg" width="49%" />   
-  <img src="https://user-images.githubusercontent.com/92669932/189938110-331e82ad-1e51-465a-a2e8-aec250760351.jpg" width="49%" />   
-  <img src="https://user-images.githubusercontent.com/92669932/189938113-dee95de0-4302-41ed-9924-5ddac5836cfe.jpg" width="49%" />    
-  <img src="https://user-images.githubusercontent.com/92669932/189938115-2de6ea5e-d90c-4fd1-bcc9-7e3997c52693.jpg" width="49%" />     
-</p>
+![t]()
