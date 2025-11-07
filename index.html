@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Data Table with Links</title>
+    <style>
+        /* --- CSS for Styling --- */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background-color: #fff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            padding: 20px 0;
+            margin: 0;
+            background-color: #e8e8e8;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+            transition: background-color 0.3s ease;
+        }
+
+        td a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        td a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+
+        /* JavaScript Interaction Style */
+        .highlight {
+            background-color: #fffacd !important; /* Light Yellow */
+            font-weight: bold;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 500px) {
+            th, td {
+                padding: 10px;
+                display: block; /* Stacks cells on smaller screens */
+            }
+            td:before {
+                content: attr(data-label); /* Adds column header label */
+                font-weight: bold;
+                margin-right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>JMeter Performance Test Reports</h1>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Test Name</th>
+                    <th>URL/Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-label="Resource Name:">
+                    <td data-label="Resource Name">Restful Booker Threads 1</td>
+                    <td data-label="URL/Link"><a href="\All_HTML_File\restful_booker_T1\index.html" target="_blank">View Report</a></td>
+                </tr>
+                <tr data-label="Resource Name:">
+                    <td data-label="Resource Name">Restful Booker Threads 100</td>
+                    <td data-label="URL/Link"><a href="\All_HTML_File\restful_booker_T100\index.html" target="_blank">View Report</a></td>
+                </tr>
+                <tr data-label="Resource Name:">
+                    <td data-label="Resource Name">Restful Booker Threads 500</td>
+                    <td data-label="URL/Link"><a href="\All_HTML_File\restful_booker_T500\index.html" target="_blank">View Report</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

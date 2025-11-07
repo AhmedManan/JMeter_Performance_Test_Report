@@ -1,4 +1,4 @@
-# JMeter_Performance_Test_Report
+# JMeter Performance Test Report
 Here I have done performance testing on Booker API https://restful-booker.herokuapp.com/apidoc/
 
 # Table of Content
@@ -47,7 +47,7 @@ This document explains how to run a performance test with JMeter against an Open
 
 ## View Report Online
 
-Report live link: https://reports.ahmedmanan.com/jmeter/
+Report live link: https://ahmedmanan.github.io/JMeter_Performance_Test_Report/index.html
 
 # Install
 
